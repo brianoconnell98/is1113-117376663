@@ -18,7 +18,7 @@
          
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                salesforce @ $1000
+                salesforce @ $100
             </label>
             
             </br>
