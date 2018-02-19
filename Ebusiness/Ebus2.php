@@ -7,7 +7,7 @@ session_start();
 <html>
     <head>
         <title> Enter Details</title>
-        <!--jQuery--><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--jQuery--><script src="https://ajax.google apis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
     <body>

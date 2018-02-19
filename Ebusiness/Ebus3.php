@@ -10,7 +10,7 @@ session_start()
     
     <body>
           <h4>RECEIPT</h4>
-          
+ 
           <?php
           //Echo Session variables that were set on previous page
           echo "Total is " . $_SESSION["Total"] . ".";
