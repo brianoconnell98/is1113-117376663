@@ -91,7 +91,7 @@
         </br>
         
         <button onClick="calcSub()">Calculate cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <a href="Ebus1.php"><button style="background-color:black; color:white;">Clear Choice</button></a>
         
     </body>
 </html>
