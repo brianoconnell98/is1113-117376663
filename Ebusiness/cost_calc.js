@@ -4,13 +4,18 @@ function calcSub(){
 
      var argSubTotal;
      
-     if(document.getElementById("salesforce").checked) {
+     if(document.getElementById("Salesforce").checked) {
          argSubTotal = 100;
      }
-     else {
+     if(document.getElementById("Cloud 9").checked) {
+         argSubTotal = 200;
+     }     
+     if(document.getElementById("Amazon Web Services").checked) {
          argSubTotal = 300;
      }
-     
+     if(document.getElementById("Gmail").checked) {
+         argSubTotal = 400;
+      }     
      display(argSubTotal);
 }
 
