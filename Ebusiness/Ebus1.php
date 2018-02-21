@@ -16,33 +16,33 @@
          
          <form method="POST" action="Ebus2.php">
          
-            <label for="Salesforce">
-                <input type="radio" id="Salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                Salesforce @ $100
+            <label for="salesforce">
+                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+                salesforce @ $100
             </label>
             
             </br>
             </br>
             
-            <label for="Cloud 9">
-                <input type="radio" id="Cloud 9" name="product" checked onClick="disablebtnProceed()"/>
-                Cloud 9 @ $200
+            <label for="cloud 9">
+                <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
+                cloud 9 @ $200
             </label>
             
             </br>
             </br>
             
-            <label for="Amazon Web Services">
-                <input type="radio" id="Amazon Web Services" name="product" checked onClick="disablebtnProceed()"/>
-                Amazon web services @ $300
+            <label for="amazon web services">
+                <input type="radio" id="amazon web services" name="product" checked onClick="disablebtnProceed()"/>
+                amazon web services @ $300
             </label>
             
             </br>
             </br>
             
-             <label for="Gmail">
-                <input type="radio" id="Gmail" name="product" checked onClick="disablebtnProceed()"/>
-                Gmail @ $400
+             <label for="gmail">
+                <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+                gmail @ $400
             </label>
             
             </br>
@@ -54,12 +54,34 @@
             </label>
             
             </br>
+            </br>
+            </br>
+            
+            <label for="Discount">
+                Discount @ 5% 
+                (- discount)
+                <input type="text" id="Discount" value="0.00" readonly/>
+            </label>
+            
+            </br>
+            </br>
+            </br>
+            
+            <label for="Vat">
+                Vat @ 10%
+                <input type="text" id="Vat" value="0.00" readonly/>
+            </label>
+            
+            </br>
+            </br>
+            </br>
             
             <label for="Total">
-                Total
+                Total (- discount + vat)
                 <input type="text" id="Total" value="0.00" readonly/>
             </label>
             
+            </br>
             </br>
             </br>
             

@@ -2,26 +2,29 @@
 
 function calcSub(){
 
-     var argSubTotal;
+     var argsubtotal;
      
-     if(document.getElementById("Salesforce").checked) {
-         argSubTotal = 100;
-     }
-     if(document.getElementById("Cloud 9").checked) {
-         argSubTotal = 200;
-     }     
-     if(document.getElementById("Amazon Web Services").checked) {
-         argSubTotal = 300;
-     }
-     if(document.getElementById("Gmail").checked) {
-         argSubTotal = 400;
-      }     
-     display(argSubTotal);
+    if(document.getElementById("salesforce").checked) {
+         argsubtotal = 100;
+     }  
+     else if(document.getElementById("cloud 9").checked) {
+         argsubtotal = 200;
+     }  
+     else if(document.getElementById("amazon web services").checked) {
+         argsubtotal = 300;
+     }  
+     else if(document.getElementById("gmail").checked) {
+         argsubtotal = 400;
+     }  
+    
+    display(argsubtotal);
 }
 
 function display(parm1){
 
      document.getElementById("Subtotal").value = parm1;
+     document.getElementById("Discount").value = parm1;
+     document.getElementById("Vat").value = parm1;
      document.getElementById("Total").value = parm1;
      
      enablebtnProceed();
