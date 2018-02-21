@@ -7,13 +7,13 @@ function calcSub(){
     if(document.getElementById("salesforce").checked) {
          argsubtotal = 100;
      }  
-     else if(document.getElementById("cloud 9").checked) {
+        else if(document.getElementById("amazon web services").checked) {
+         argsubtotal = 300;
+     }     
+        else if(document.getElementById("cloud 9").checked) {
          argsubtotal = 200;
      }  
-     else if(document.getElementById("amazon web services").checked) {
-         argsubtotal = 300;
-     }  
-     else if(document.getElementById("gmail").checked) {
+        else if(document.getElementById("gmail").checked) {
          argsubtotal = 400;
      }  
     

@@ -23,13 +23,6 @@
             
             </br>
             </br>
-            
-            <label for="cloud 9">
-                <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
-                cloud 9 @ $200
-            </label>
-            
-            </br>
             </br>
             
             <label for="amazon web services">
@@ -39,12 +32,23 @@
             
             </br>
             </br>
+            </br>
+            
+            <label for="cloud 9">
+                <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
+                cloud 9 @ $200
+            </label>
+            
+            </br>
+            </br>
+            </br>
             
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
                 gmail @ $400
             </label>
             
+            </br>
             </br>
             </br>
             
