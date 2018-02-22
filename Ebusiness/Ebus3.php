@@ -8,7 +8,7 @@ session_start()
         <title>RECEIPT</title>
     </head>
     
-    <body>
+    <body align="center">
           <h4>RECEIPT</h4>
  
           <?php

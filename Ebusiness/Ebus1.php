@@ -8,7 +8,7 @@
           
      </head>
      
-     <body>
+     <body align="center">
      
          <h4>Select Product</h4>
          
@@ -94,8 +94,12 @@
         
         </br>
         
-        <button onClick="calcSub()">Calculate cost</button>
-        <a href="Ebus1.php"><button style="background-color:black; color:white;">Clear Choice</button></a>
+        <button style="font-size:15px;" onClick="calcSub()">Calculate cost</button>
+        <a href="Ebus1.php"><button style="font-size:15px; background-color:black; color:white;">Clear Choice</button></a>
+        
+        </br>
+        </br>
+        
         
     </body>
 </html>
