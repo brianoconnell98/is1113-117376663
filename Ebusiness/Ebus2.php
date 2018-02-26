@@ -41,10 +41,12 @@ session_start();
                 
             </form>
             
-            <br />
+            <br/>
+            
+            <a href="Ebus1.html"><button style="font-size:15px; background-color:silver;">Back</button></a>
             <button style="font-size:15px;" onClick="validateDetails()"> Validate </button>
         <script type="text/javascript" src="Ebus2_validator.js"></script>
-        
+
         <?php
         // set session variables
         $_SESSION["Total"] = $_POST["Total"]
