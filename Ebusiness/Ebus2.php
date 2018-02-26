@@ -20,14 +20,14 @@ session_start();
                 
                 <label for="name"> Name</label>
                 
-                <input type="text" id="name" placeholder="name" maxlength="25">
+                <input type="text" id="name" maxlength="25">
                 
                 <br/>
                 <br/>
                 
                 <label for "email"> Email Address</label>
                 
-                <input type="text" id="email" placeholder="email" maxlength="30">
+                <input type="text" id="email" maxlength="30">
                 
                 <br/>
                 <br/>
