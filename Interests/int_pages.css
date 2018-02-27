@@ -1,13 +1,16 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background-image: url("http://sites.psu.edu/bmannkepassionpost/wp-content/uploads/sites/16550/2014/10/barcelona-spain1-1.jpg");
+    background-size: cover;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("https://d1ne1hbcnyoys2.cloudfront.net/imagegen/max/ccr/1088/-/s3/adventures-cougar-assets/travel/2017/03/31/3926/bondi-beach.jpg");
+    background-size: cover;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1457265578250890272/9D1ED6455CF8BA295E64A2BF4F4773B2E512AF60/");
+    background-size: cover;
 }
 
 .section{
