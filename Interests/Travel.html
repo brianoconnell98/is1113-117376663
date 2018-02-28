@@ -1,72 +1,94 @@
  <!DOCTYPE html>
 <html>
     <head>
+        
         <meta charset="utf-8"/>
+        
+        <!-- title -->
         <title>Travel</title>
-        <link rel="stylesheet" href="../MyStyleSheet.CSS" type="text/css" />
+        
+        <!-- link to my style sheet -->
+        <link rel="stylesheet" href="../MyStyleSheet.css" type="text/css" />
+        
+        <!-- link to int pages -->
         <link rel="stylesheet" href="int_pages.css" type="text/css" />
         
-        <!-- Page piling -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--Page Piling-->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
         
-        <!-- Function to initialize page piling -->
-        <script type="text/javascript">
-            $(document).ready(function() {
-	        $('#pagepiling').pagepiling();
-            });
-        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+                $('#pagepiling').pagepiling();
+                });
         </script>
+    
     </head>
-
-   <body align="center">
-     
-    <div id="pagepiling">
-	    <div style="color: red; font-size:30px;" class="section" id="section1">Most travelled to: Spain</div>
-	    <p>
-	       My family and I travelled to Spain numerous times since I was born. We usually fly into Barcelona and hire a car and go from there. 
-	       We usually hire a mobile home and stay for 10-14 nights. It has an amazing culture with amazing golf courses. It is home to the many
-	       famous golfers which include John Ram current World Number 2, Sergio Garcia the latest Masters Tournament Champion and of course the 
-	       inspirational Seve Ballesteros.
-	    </p>
-	    
-	    <br />
-	    
-	    <div style="color: blue; font-size:30px;" class="section" id="section2">Want to visit: Australia</div>
-	    
-	    <p>
-	        Australia is a place where I hope to visit in the next few years. My sister just moved out there working as a financial advisor for 
-	        a construction company. It is my dream to go out there next Christmas and soak in the sun and enjoy Christmas in a different kind of 
-	        style on Bondi Beach. I also want to visit the Gold Coast Golf Club where he had his first big win was at the age of 13 in a 2000 
-	        Australian Masters junior event.
-	    </p>
-	   
-	    <br />
-	    <br />
-	    
-	    <div style="color: green; font-size:30px;" class="section" id="section3">Settle in: America</div>
-	    
-	    <p>
-	        America has the balance of Famous cities and historicial sights spread across the massive country. I would love to live there when I
-	        am older because of the many famous golf courses which include Pebble Beach Links and Augusta National. America is an idealistic 
-	        place to live and one day I hope to live there.
-	    </p>
-	    
-        <br />
-        <br />
+    
+    <body>
+                <!-- adding content to section 1 -->
         
-        <a href="Interests.html" class="btn btn-dark"><button style="background-color:silver">Back</button></a>
-	    <a href="../Homepage.html" class="btn btn-success"><button>Home</button></a>
-	    
-	    <br />
-	    <br />
-	    
-	 </div>
-</body>
+        <div id="pagepiling">
+            
+            <div class="section" id="section1">
+                
+                Most travelled to: Spain
+                
+                <br />
+                
+                <p>
+                My family and I travelled to Spain numerous times since I was born. We usually fly into Barcelona and hire a car and go from there.	
+                It has an amazing culture with amazing golf courses. It is home to the many famous golfers which include John Ram current World 
+                Number 2, Sergio Garcia the latest Masters Tournament Champion and of course the inspirational Seve Ballesteros.
+                </p>
+                    
+                </div>
+                
+                <!-- adding content to section 2  -->
+                
+        	<div class="section" id="section2">
+        	    
+        	    Want to visit: Australia
+        	    
+        	    <br />
+        	    
+        	    <p>
+        	    Australia is a place where I hope to visit in the next few years. My sister just moved out there working as a financial advisor for	
+        	    a construction company. It is my dream to go out there next Christmas and soak in the sun and enjoy Christmas in a different kind of
+        	    style on Bondi Beach.
+        	    </p>
+        	    	
+        	    </div>
+        	    
+        	    <!-- adding content to the section 3 -->
+        	    
+        	<div class="section" id="section3">
+        	    
+        	    Settle in: America
+        	    
+        	    <br/>
+        	    
+        	    <p>
+        	    America has the balance of Famous cities and historicial sights spread across the massive country. I would love to live there when I
+        	    am older because of the many famous golf courses which include Pebble Beach Links and Augusta National. America is an idealistic
+        	    place to live and one day I hope to live there.
+        	    </p>
+        	    
+        	    <br />
+        
+        	    <br />
+        	    
+        	    <!-- adding a back button and a home button -->
+        	    
+        	    <a href="Interests.html" class="btn btn-dark"><button style="background-color:silver">Back</button></a>
+	            <a href="../Homepage.html" class="btn btn-success"><button>Home</button></a>
+        	    
+        	</div>
+        	
+        </div> 
+
+        
+    </body>
+
 </html>
-
-

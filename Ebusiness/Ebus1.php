@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
      <head>
          <!-- title -->
@@ -64,7 +65,7 @@
          <!-- subtotal textbox -->    
             <label for="Subtotal">
                 Sub Total
-                <input type="text" id="Subtotal" value="0.00" readonly/>
+                <input type="text" id="Subtotal" name="Subtotal" value="0.00" readonly/>
             </label>
             
             <br />
@@ -75,7 +76,7 @@
             <label for="Discount">
                 Discount @ 5% 
                 (- discount)
-                <input type="text" id="Discount" value="0.00" readonly/>
+                <input type="text" id="Discount" name="Discount" value="0.00" readonly/>
             </label>
             
             <br /> 
@@ -85,7 +86,7 @@
          <!-- vat textbox -->    
             <label for="Vat">
                 Vat @ 10%
-                <input type="text" id="Vat" value="0.00" readonly/>
+                <input type="text" id="Vat" name="Vat" value="0.00" readonly/>
             </label>
             
             <br />
@@ -95,7 +96,7 @@
          <!-- total textbox -->    
             <label for="Total">
                 Total (- discount + vat)
-                <input type="text" id="Total" value="0.00" readonly/>
+                <input type="text" id="Total" name="Total" value="0.00" readonly/>
             </label>
             
             <br />

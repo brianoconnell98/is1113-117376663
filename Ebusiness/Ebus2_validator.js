@@ -11,10 +11,10 @@ function validateDetails(){
     
     // if statement for error handling 
     if (name==""){
-        alert("Please enter your name")
+        alert("Please enter your name");
     }
    else if (Email==""){
-        alert("Please enter an email")
+        alert("Please enter an email");
    }
     else if (pin==""){
         alert("Please enter your PIN");
@@ -36,3 +36,4 @@ function enablebtnPurchase(){
 function disablebtnPurchase(){
      $('#btnPurchase').prop('disabled',true);
 }
+

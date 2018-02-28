@@ -60,15 +60,24 @@ session_start();
             <button style="font-size:15px;" onClick="validateDetails()"> Validate </button>
             <script type="text/javascript" src="Ebus2_validator.js"></script>
 
-        <?php
-        // set session variables
-        $_SESSION["name"] = $_POST["name"];
-        $_SESSION["Email"] = $_POST["Email"];
+            <?php
+        // Set session variables
+        
+        $_SESSION["Subtotal"] = $_POST["Subtotal"];
+        
+        $_SESSION["Discount"] = $_POST["Discount"];
+        
+        $_SESSION["Vat"] = $_POST["Vat"];
+        
         $_SESSION["Total"] = $_POST["Total"];
+        
+        $_SESSION["name"] = $_POST["name"];
+        
+        $_SESSION["Email"] = $_POST["Email"];
+        
         ?>
         
-        
+    
     </body>
     
 </html>
-

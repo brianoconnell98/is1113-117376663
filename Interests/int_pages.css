@@ -13,7 +13,17 @@
     background-size: cover;
 }
 
-.section{
+.section1{
+    text-align: center;
+    color: white;
+}
+
+.section2{
+    text-align: center;
+    color: white;
+}
+
+.section3{
     text-align: center;
     color: white;
 }
