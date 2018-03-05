@@ -4,7 +4,7 @@
 }
 
 #section2{
-    background-image: url("https://d1ne1hbcnyoys2.cloudfront.net/imagegen/max/ccr/1088/-/s3/adventures-cougar-assets/travel/2017/03/31/3926/bondi-beach.jpg");
+    background-image: url("https://www.rydges.com/accommodation/sydney-nsw/world-square-sydney-cbd/wp-content/uploads/sites/2/2015/10/500x434-Bondi-Beach-465x330.jpg");
     background-size: cover;
 }
 
@@ -13,17 +13,7 @@
     background-size: cover;
 }
 
-.section1{
-    text-align: center;
-    color: white;
-}
-
-.section2{
-    text-align: center;
-    color: white;
-}
-
-.section3{
+.section{
     text-align: center;
     color: white;
 }

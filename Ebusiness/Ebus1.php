@@ -15,7 +15,7 @@
      <body align="center">
      
          <!-- heading -->
-         <h4>Select Product</h4>
+         <h3>Select Product</h3>
          
          <br />
          
@@ -118,11 +118,15 @@
         <br />
         <br />
         
-     <!-- button to go back to home page -->    
-        <a href="../Homepage.html"><button style="font-size:15px; background-color:silver;">Home</button></a>
+        <!-- button to homepage -->
+        <a href="../Homepage.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9kXqwVS9KhCmGPVPj_ZK_3dRqEHLSwzLIU4hQ1QW25ABtmXYVfw" alt"homepage" height="75" width="75"></a>
         
         <br />
         <br />
+        
+        <div id = "Footer">
+              <p>Copyright 2018 &COPY; All Rights Reserved. Design By Brian O Connell 117376663</p>
+          </div>
         
         
     </body>
