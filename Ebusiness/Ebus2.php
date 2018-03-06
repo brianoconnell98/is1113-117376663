@@ -80,6 +80,7 @@ session_start();
         <br />
         <br />
         
+        <!-- footer -->
         <div id = "Footer">
               <p>Copyright 2018 &COPY; All Rights Reserved. Design By Brian O Connell 117376663</p>
           </div>
