@@ -2,58 +2,19 @@
     text-align: center;
 }
 
-header
-{
-    top:0%;
-    left:0%;
-    width:120%;
-    height:21%;
-    position:absolute;
-    background: #effbff;
-    text-align: center;
-    color: #ffffff;
-    font-family: verdana;
-}
-
-#Title
-{
-    top:20%;
-    left:40%;
-    width:35%;
-    height:80%;
-    position:absolute;
-    background: 'transparent';
-    z-index:10;
-    -moz-transition: left ls ease-in-out;
-    -webkit-transition: left ls ease-in-out;
-    transition: left ls ease-in-out;
-}
-
 #Content
 {
-    top:25%;
-    left:0%;
-    width:120%;
-    height:100%;
     position:absolute;
     background: #effbff;
-    z-index:10;
     color: #ffffff;
-    text-align: left;
     font-size: 20px;
 }    
     
 #Main
 {
-    top:9%;
-    left:10%;
-    width:64%;
-    height:71%;
     position:absolute;
     background: #effbff;
-    z-index:10;
     color: #554E4D;
-    text-align: left;
     font-family: verdana;
     font-size: 20px;
 }    
